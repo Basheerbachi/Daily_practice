@@ -1,0 +1,109 @@
+
+// for (let item of nodeList) {
+//     console.log(item)
+// }
+
+// console.log('child NODES',document.body.childNodes) // all the nodes, including text nodes
+
+// console.log('children',document.body.children) // all element nodes
+
+
+// let nodeList = document.body.childNodes
+
+// let elementList = document.body.children
+
+// console.log(document.body.firstChild)
+//firstChild, lastChild -> nodeList
+
+// console.log(document.body.firstElementChild) //h1
+// console.log(document.body.lastElementChild.previousElementSibling.lastElementChild) //ul
+
+
+//
+// console.log(document.body.firstElementChild.nextElementSibling)
+
+//  for (let key in user){
+//     if (typeof(user[key])==='number'){
+//         user[key]=user[key]*2
+//     }
+//  }
+//  console.log(user);
+// let user={
+//     name:'shanth'
+// }
+// const admin=user
+// console.log(admin);
+// console.log(user);
+// admin.name='virat'
+// console.log(user);
+// console.log(admin);
+// admin.age=22
+// console.log(user);
+// console.log(admin);
+// const a={
+//     age:2
+// }
+// a.k=2
+// console.log(a);
+// delete a.age
+// console.log(a);
+// let a={
+//     key:1
+// }
+// let b={
+//     key:2
+// }
+// a=b
+// console.log(a);
+// console.log(b);
+// let a={
+//     name:'shan',
+//     hi:function(){
+//         console.log("hi",a.name);
+//     }
+// }
+// b=a;
+// a=null
+// console.log(b.name);
+// function sayHi(){
+//     console.log(this.name);
+// }
+// let a={
+//     name:'shanth'
+// }
+// let b={
+//     name:'kumar'
+// }
+// a.fun=sayHi;
+// b.fun=sayHi;
+
+// // console.log(a.fun);
+// sayHi()
+// let a={
+//     step:0,
+//     up(){
+//         this.step++
+//     },
+//     down(){
+//         this.step--
+//     },
+//     show(){
+//         console.log(this.step);
+//     }
+// }
+// a.down()
+// a.show()
+// const a={
+//     m:'ello'
+//     thismesage(){
+//         m:'ss'
+//         return this.m
+//     }
+// }
+// const obj = {
+//     message: 'Hello, World',
+//     getMessage() {
+//         const message = 'Hello, Earth'
+//         return this.message
+//     }
+// }
